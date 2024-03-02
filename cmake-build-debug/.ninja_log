@@ -1,0 +1,12 @@
+# ninja log v5
+4	38	1708739778448768677	CMakeFiles/Lab1_ManageUserAccs.dir/Time.cpp.o	a9a76c463e1154d
+3	266	1709379092098461627	CMakeFiles/Lab1_ManageUserAccs.dir/Menu.cpp.o	8d0785010b22af8c
+3	273	1709379092105998679	CMakeFiles/Lab1_ManageUserAccs.dir/main.cpp.o	59483dc4330578a6
+4	289	1708739778697973308	CMakeFiles/Lab1_ManageUserAccs.dir/DateTime.cpp.o	e12af4cfc1388f61
+323	357	1709379092193496563	Lab1_ManageUserAccs	4123431de8581887
+3	255	1709379092087835213	CMakeFiles/Lab1_ManageUserAccs.dir/User.cpp.o	f0c553da120994f7
+5	44	1708739778454468778	CMakeFiles/Lab1_ManageUserAccs.dir/utils.cpp.o	aed88f784cd9277
+5	245	1708739778653261177	CMakeFiles/Lab1_ManageUserAccs.dir/Person.cpp.o	3c933e4a9b569947
+3	323	1709379092156700426	CMakeFiles/Lab1_ManageUserAccs.dir/UserMenu.cpp.o	2b16bd5eab8d6bc3
+0	4	0	clean	3c8e6cc385ee00ba
+0	48	1709379308183471305	build.ninja	83f0b23ab14437ce

@@ -1,0 +1,211 @@
+"/Users/prateekp/CLionProjects/Mr.Pham CS124/Lab1-ManageUserAccs/cmake-build-debug/Lab1_ManageUserAccs"
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+1
+Input: 1
+Enter your phone number/email/username
+guess
+
+Enter your password
+wel
+
+Incorrect Password
+welcome
+Sign in Successful!
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+2
+Input: 2
+Successfully signed out
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+1
+Input: 1
+Enter your phone number/email/username
+jpham
+
+Enter your password
+admin
+
+Sign in Successful!
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+4
+Input: 4
+You are an admin, do you want to reset password of a user? yes/no
+yes
+Which user's password would you like to change
+guess
+What password would you like to set guess to?
+newpass
+Successfully changed
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+2
+Input: 2
+Successfully signed out
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+1
+Input: 1
+Enter your phone number/email/username
+guess
+
+Enter your password
+welcome
+
+Incorrect Password
+newpass
+Sign in Successful!
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+2
+Input: 2
+Successfully signed out
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+4
+Input: 4
+Enter first name
+Prateek
+Enter last name
+Panda
+Enter address
+Hyde Common
+Enter city
+Fremont
+Enter state
+California
+Enter zip
+94538
+Enter phone
+510-681-5362
+Enter email
+sidpanda65@gmail.com
+Enter username
+Ppanda
+Enter password
+GoodPassword
+Re-enter password
+GoodPassword
+What role would you like, guest/student/admin
+student
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+1
+Input: 1
+Enter your phone number/email/username
+510-681-5362
+
+Enter your password
+GoodPassword
+
+Sign in Successful!
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+5
+Input: 5
+What would you like to update, firstname/lastname/address/city/state/zipcode/phonenumber/email ?
+email
+Enter the new email: ppanda3@student.ohlone.edu
+Would you like to change something else yes/no
+no
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+2
+Input: 2
+Successfully signed out
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+1
+Input: 1
+Enter your phone number/email/username
+ppanda3@student.ohlone.edu
+
+Enter your password
+GoodPassword
+
+Sign in Successful!
+***** ***** ***** *****
+1) Sign In
+2) Sign Out
+3) Reset Password
+4) Create Account
+5) Manage Profiles
+x) Quit
+x
+Input: 6
+
+Process finished with exit code 0
+
+/*
+This output runs through all required functions and does it, users_data.csv looks as such afterwards
+Id,Role,Username,Password,Sign-in datetime,Sign out datetime,First Name,Last Name,Address,City,State,Zip,Phone,Email
+1001,guess,guess,newpass,2/23/2024 18:18:22,2/23/2024 18:18:28,guess,guess,39399 Cherry St,Fremont,CA,94560,510-7422300,guess@ohlone.edu
+1002,admin,admin,welcome1,1/29/2024 17:10:10,2/10/2024 20:35:45,admin,ohlone,43600 Mission Blvd,Fremont,CA,94539,510-659-6000,admin@ohlone.edu
+1003,student,john,doe,1/29/2024 18:30:1,2/10/2024 20:45:50,John,Doe,43600 Mission Blvd,Fremont,CA,94539,510-659-6000,jdoe@ohlone.student.edu
+1004,admin,jpham,admin,2/23/2024 18:18:7,2/23/2024 18:18:15,James,Pham,43600 Mission Blvd,Fremont,CA,94539,510-659-6000,jpham@ohlone.edu
+1005,student,Ppanda,GoodPassword,2/23/2024 18:19:45,2/23/2024 18:19:28,Prateek,Panda,Hyde Common,Fremont,California,94538,510-681-5362,ppanda3@student.ohlone.edu
+Changes can clearly be seen along with the new user created
+I have reset users_data.csv to its default state if additional tests will be run
+*/
